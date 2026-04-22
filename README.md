@@ -4,27 +4,6 @@
 
 ---
 
-## 📁 Project Structure
-
-```
-chatgpt-analysis/
-├── ChatGPT_Review_Analysis_1.ipynb   # Main analysis notebook
-├── chatgpt_reviews.csv               # Raw dataset
-├── chatgpt_reviews_enriched.csv      # Cleaned & enriched dataset with sentiment scores
-├── rating_distribution.png           # EDA: Rating distribution
-├── review_length_dist.png            # EDA: Review length distribution
-├── sentiment_overview.png            # Sentiment count + polarity + subjectivity
-├── sentiment_vs_rating.png           # Sentiment breakdown per star rating
-├── correlation_heatmap.png           # Correlation matrix of key numeric features
-├── keywords_pos_neg.png              # Top keywords in positive vs negative reviews
-├── top_keywords_all.png              # Top 20 most frequent words across all reviews
-├── polarity_subjectivity_scatter.png # Scatter plot: Polarity vs Subjectivity
-├── wordclouds.png                    # Word clouds by sentiment category
-└── insight_dashboard.png             # Final BI summary dashboard
-```
-
----
-
 ## 🎯 Problem Statement
 
 The ChatGPT mobile app has millions of users leaving reviews on app stores. These reviews are a goldmine of product feedback — but reading them individually is impossible at scale.
@@ -95,7 +74,7 @@ The ChatGPT mobile app has millions of users leaving reviews on app stores. Thes
 
 ### 1. Rating Distribution
 
-![Rating Distribution](rating_distribution.png)
+![Rating Distribution](https://github.com/Pushpesh987/chatgpt-analysis/blob/main/screenshots/rating_distribution.png)
 
 **What it shows:**
 A bar chart and pie chart of review counts by star rating (1 to 5).
@@ -113,7 +92,7 @@ A bar chart and pie chart of review counts by star rating (1 to 5).
 
 ### 2. Distribution of Review Lengths
 
-![Review Length Distribution](review_length_dist.png)
+![Review Length Distribution](https://github.com/Pushpesh987/chatgpt-analysis/blob/main/screenshots/review_length_dist.png)
 
 **What it shows:**
 A histogram of review word counts, with a red dashed line marking the mean.
@@ -130,7 +109,7 @@ A histogram of review word counts, with a red dashed line marking the mean.
 
 ### 3. Sentiment Analysis Overview
 
-![Sentiment Overview](sentiment_overview.png)
+![Sentiment Overview](https://github.com/Pushpesh987/chatgpt-analysis/blob/main/screenshots/sentiment_overview.png)
 
 **What it shows:**
 Three panels: Sentiment category counts, polarity score distribution, and subjectivity score distribution.
@@ -148,7 +127,7 @@ Three panels: Sentiment category counts, polarity score distribution, and subjec
 
 ### 4. Sentiment vs Star Rating
 
-![Sentiment vs Rating](sentiment_vs_rating.png)
+![Sentiment vs Rating](https://github.com/Pushpesh987/chatgpt-analysis/blob/main/screenshots/sentiment_vs_rating.png)
 
 **What it shows:**
 Left: Stacked bar chart of sentiment labels per star rating. Right: Box plot of polarity scores per star rating.
@@ -166,7 +145,7 @@ Left: Stacked bar chart of sentiment labels per star rating. Right: Box plot of 
 
 ### 5. Correlation Heatmap
 
-![Correlation Heatmap](correlation_heatmap.png)
+![Correlation Heatmap](https://github.com/Pushpesh987/chatgpt-analysis/blob/main/screenshots/correlation_heatmap.png)
 
 **What it shows:**
 A 4×4 heatmap showing Pearson correlation coefficients between: `ratings`, `polarity`, `subjectivity`, `review_length`.
@@ -184,7 +163,7 @@ A 4×4 heatmap showing Pearson correlation coefficients between: `ratings`, `pol
 
 ### 6. Top Keywords: Positive vs Negative Reviews
 
-![Keywords Pos Neg](keywords_pos_neg.png)
+![Keywords Pos Neg](https://github.com/Pushpesh987/chatgpt-analysis/blob/main/screenshots/wordclouds.png)
 
 **What it shows:**
 Side-by-side horizontal bar charts of the top 15 most frequent words in Positive (green) and Negative (red) reviews.
@@ -202,7 +181,7 @@ Side-by-side horizontal bar charts of the top 15 most frequent words in Positive
 
 ### 7. Top 20 Most Frequent Words (All Reviews)
 
-![Top Keywords All](top_keywords_all.png)
+![Top Keywords All](https://github.com/Pushpesh987/chatgpt-analysis/blob/main/screenshots/top_keywords_all.png)
 
 **What it shows:**
 A horizontal bar chart of the 20 most common words across all 193K reviews, with exact frequency counts.
@@ -221,7 +200,7 @@ A horizontal bar chart of the 20 most common words across all 193K reviews, with
 
 ### 8. Polarity vs Subjectivity Scatter Plot
 
-![Polarity Subjectivity Scatter](polarity_subjectivity_scatter.png)
+![Polarity Subjectivity Scatter](https://github.com/Pushpesh987/chatgpt-analysis/blob/main/screenshots/polarity_subjectivity_scatter.png)
 
 **What it shows:**
 A scatter plot with each review plotted by polarity (x-axis) vs subjectivity (y-axis), colored by sentiment label.
@@ -240,7 +219,7 @@ A scatter plot with each review plotted by polarity (x-axis) vs subjectivity (y-
 
 ### 9. Word Clouds by Sentiment Category
 
-![Word Clouds](wordclouds.png)
+![Word Clouds](https://github.com/Pushpesh987/chatgpt-analysis/blob/main/screenshots/wordclouds.png)
 
 **What it shows:**
 Three word clouds — one each for Positive, Neutral, and Negative reviews — where word size reflects frequency.
@@ -258,7 +237,7 @@ Three word clouds — one each for Positive, Neutral, and Negative reviews — w
 
 ### 10. 🎯 Insight Dashboard (Overall BI Summary)
 
-![Insight Dashboard](insight_dashboard.png)
+![Insight Dashboard](https://github.com/Pushpesh987/chatgpt-analysis/blob/main/screenshots/insight_dashboard.png)
 
 **What it shows:**A 4-panel summary dashboard combining:
 
